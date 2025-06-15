@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✨☀️ Solar Wall Lights Outdoor - Lampu Taman Premium Waterproof IP65</title>
-    <meta name="description" content="Lampu Solar Wall Lights Premium dengan teknologi terdepan. Waterproof IP65, hemat energi, mudah dipasang. Diskon 49% hari ini!">
+    <title>Suction Cup Bathroom Storage Rack - Solusi Penyimpanan Kamar Mandi Modern</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -13,74 +12,24 @@
             box-sizing: border-box;
         }
 
-        :root {
-            --primary-gradient: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
-            --secondary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            --text-dark: #2d3748;
-            --text-light: #4a5568;
-            --bg-light: #f7fafc;
-            --white: #ffffff;
-            --shadow-lg: 0 20px 40px rgba(0,0,0,0.1);
-            --shadow-xl: 0 25px 50px rgba(0,0,0,0.15);
-        }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: var(--text-dark);
+            color: #333;
+            overflow-x: hidden;
         }
 
-        /* Header & Navigation */
-        .header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 1rem 0;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-
-        .nav-container {
+        .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 0 20px;
         }
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-cta {
-            background: var(--primary-gradient);
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: transform 0.3s ease;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .nav-cta:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-xl);
-        }
-
-        /* Hero Section */
+        /* Header Section */
         .hero {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 120px 0 80px;
             color: white;
+            padding: 80px 0;
             position: relative;
             overflow: hidden;
         }
@@ -92,246 +41,189 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="1" fill="white" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
             animation: float 20s ease-in-out infinite;
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-10px) rotate(1deg); }
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
         }
 
-        .hero-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
+        .hero-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+            gap: 50px;
             align-items: center;
             position: relative;
             z-index: 2;
         }
 
-        .hero-content h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            font-weight: 800;
-            line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        .hero-text h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            animation: slideInLeft 1s ease-out;
         }
 
-        .hero-content .subtitle {
+        .hero-text .tagline {
             font-size: 1.3rem;
-            margin-bottom: 2rem;
+            margin-bottom: 30px;
             opacity: 0.9;
-            font-weight: 300;
-        }
-
-        .price-container {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background: rgba(255,255,255,0.1);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-        }
-
-        .original-price {
-            text-decoration: line-through;
-            opacity: 0.7;
-            font-size: 1.2rem;
-        }
-
-        .current-price {
-            font-size: 2.5rem;
-            font-weight: bold;
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: block;
-        }
-
-        .discount-badge {
-            background: #ff4757;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 0.5rem;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        .cta-primary {
-            background: var(--primary-gradient);
-            color: white;
-            padding: 1rem 2.5rem;
-            font-size: 1.2rem;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: var(--shadow-lg);
-            margin-right: 1rem;
-        }
-
-        .cta-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: var(--shadow-xl);
-        }
-
-        .cta-secondary {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            padding: 1rem 2rem;
-            border: 2px solid rgba(255,255,255,0.3);
-            border-radius: 50px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-
-        .cta-secondary:hover {
-            background: rgba(255,255,255,0.3);
-            border-color: rgba(255,255,255,0.5);
+            animation: slideInLeft 1s ease-out 0.3s both;
         }
 
         .hero-image {
-            position: relative;
+            text-align: center;
+            animation: slideInRight 1s ease-out;
         }
 
         .hero-image img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
-            border-radius: 20px;
-            box-shadow: var(--shadow-xl);
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
         }
 
-        .hero-image:hover img {
+        .hero-image img:hover {
             transform: scale(1.05);
         }
 
-        /* Features Section */
-        .features {
-            padding: 80px 0;
-            background: var(--bg-light);
+        /* Stats Counter */
+        .stats {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+            animation: slideInUp 1s ease-out 0.6s both;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 800;
-        }
-
-        .section-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: var(--text-light);
-            margin-bottom: 3rem;
-        }
-
-        .features-grid {
+        .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 20px;
-            box-shadow: var(--shadow-lg);
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
             text-align: center;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
         }
 
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--primary-gradient);
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--shadow-xl);
-        }
-
-        .feature-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .feature-icon {
-            width: 80px;
-            height: 80px;
-            background: var(--primary-gradient);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 1.5rem;
+        .stat-item h3 {
             font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Problem Section */
+        .problem-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        .problem-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .problem-content h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .problem-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .problem-item {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .problem-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .problem-item i {
+            font-size: 3rem;
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+
+        /* Solution Section */
+        .solution-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
             color: white;
         }
 
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--text-dark);
+        .solution-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .solution-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .solution-features {
+            list-style: none;
+        }
+
+        .solution-features li {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .solution-features li i {
+            color: #00b894;
+            margin-right: 15px;
+            font-size: 1.2rem;
         }
 
         /* Product Gallery */
-        .gallery {
+        .gallery-section {
             padding: 80px 0;
             background: white;
+        }
+
+        .gallery-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #333;
         }
 
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
 
         .gallery-item {
             position: relative;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: var(--shadow-lg);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            cursor: pointer;
             transition: transform 0.3s ease;
         }
 
@@ -343,206 +235,203 @@
             width: 100%;
             height: 250px;
             object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        .features-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card i {
+            font-size: 3rem;
+            color: #74b9ff;
+            margin-bottom: 20px;
         }
 
         /* Testimonials */
-        .testimonials {
+        .testimonials-section {
             padding: 80px 0;
-            background: var(--bg-light);
+            background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+            color: white;
+        }
+
+        .testimonials-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
         }
 
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            gap: 30px;
         }
 
         .testimonial-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 20px;
-            box-shadow: var(--shadow-lg);
-            position: relative;
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            animation: fadeInUp 1s ease-out;
         }
 
-        .testimonial-card::before {
-            content: '"';
-            position: absolute;
-            top: -10px;
-            left: 20px;
-            font-size: 4rem;
-            color: var(--primary-gradient);
-            font-weight: bold;
-        }
-
-        .stars {
+        .testimonial-card .stars {
             color: #ffd700;
-            margin-bottom: 1rem;
+            margin-bottom: 15px;
             font-size: 1.2rem;
         }
 
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .author-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: var(--primary-gradient);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-        }
-
-        /* FAQ Section */
-        .faq {
-            padding: 80px 0;
-            background: white;
-        }
-
-        .faq-item {
-            background: var(--bg-light);
-            margin-bottom: 1rem;
-            border-radius: 15px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .faq-question {
-            padding: 1.5rem;
-            background: var(--primary-gradient);
-            color: white;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .testimonial-card .customer-info {
+            margin-top: 20px;
             font-weight: 600;
         }
 
-        .faq-answer {
-            padding: 1.5rem;
-            display: none;
-            background: white;
-        }
-
-        .faq-answer.active {
-            display: block;
-        }
-
         /* Countdown Timer */
-        .countdown {
-            background: #ff4757;
+        .countdown-section {
+            padding: 50px 0;
+            background: #e74c3c;
             color: white;
-            padding: 2rem 0;
             text-align: center;
         }
 
-        .countdown-container {
+        .countdown-timer {
             display: flex;
             justify-content: center;
-            gap: 2rem;
-            margin-top: 1rem;
+            gap: 30px;
+            margin-top: 30px;
         }
 
         .countdown-item {
-            text-align: center;
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 80px;
         }
 
-        .countdown-number {
-            font-size: 2.5rem;
-            font-weight: bold;
-            display: block;
+        .countdown-item .number {
+            font-size: 2rem;
+            font-weight: 700;
         }
 
-        .countdown-label {
+        .countdown-item .label {
             font-size: 0.9rem;
             opacity: 0.8;
         }
 
+        /* Price Banner */
+        .price-banner {
+            background: linear-gradient(45deg, #00b894, #00cec9);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .price-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: float 15s linear infinite;
+        }
+
+        .price-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .original-price {
+            font-size: 1.5rem;
+            text-decoration: line-through;
+            opacity: 0.7;
+            margin-bottom: 10px;
+        }
+
+        .current-price {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .price-label {
+            font-size: 1.2rem;
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
         /* CTA Section */
         .cta-section {
-            background: var(--primary-gradient);
             padding: 80px 0;
+            background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
             color: white;
             text-align: center;
         }
 
-        .cta-section h2 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .cta-section p {
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        /* Footer */
-        .footer {
-            background: var(--text-dark);
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #00b894, #00cec9);
             color: white;
-            padding: 60px 0 30px;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h3 {
-            margin-bottom: 1rem;
-            color: var(--primary-gradient);
-        }
-
-        .footer-section a {
-            color: #cbd5e0;
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
             text-decoration: none;
-            display: block;
-            margin-bottom: 0.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: white;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid #4a5568;
-            padding-top: 2rem;
-            text-align: center;
-            color: #cbd5e0;
-        }
-
-        /* WhatsApp Floating Button */
-        .whatsapp-float {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 40px;
-            right: 40px;
-            background: #25d366;
-            color: white;
             border-radius: 50px;
-            text-align: center;
-            font-size: 30px;
-            box-shadow: var(--shadow-xl);
-            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
             animation: bounce 2s infinite;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
         }
 
         @keyframes bounce {
@@ -551,525 +440,501 @@
             60% { transform: translateY(-5px); }
         }
 
-        .whatsapp-float:hover {
-            transform: scale(1.1);
-            background: #20ba5a;
-        }
-
-        /* Sticky Order Button */
-        .sticky-order {
+        /* Modal */
+        .modal {
+            display: none;
             position: fixed;
-            bottom: 0;
+            z-index: 1000;
             left: 0;
-            right: 0;
-            background: var(--primary-gradient);
-            padding: 1rem;
-            text-align: center;
-            z-index: 999;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-            box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            animation: fadeIn 0.3s ease-out;
         }
 
-        .sticky-order.show {
-            transform: translateY(0);
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
         }
 
-        .sticky-order .cta-primary {
-            margin: 0;
-            width: 90%;
-            max-width: 400px;
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Animations */
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes slideInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
-            .hero-container {
+            .hero-content {
                 grid-template-columns: 1fr;
                 text-align: center;
-                gap: 2rem;
             }
 
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
-
-            .section-title {
+            .hero-text h1 {
                 font-size: 2rem;
             }
 
-            .nav-container {
-                padding: 0 1rem;
+            .solution-content {
+                grid-template-columns: 1fr;
             }
 
-            .container {
-                padding: 0 1rem;
+            .stats-grid {
+                grid-template-columns: 1fr;
             }
 
-            .countdown-container {
+            .countdown-timer {
                 flex-wrap: wrap;
-                gap: 1rem;
+                gap: 15px;
             }
 
-            .cta-primary {
-                display: block;
-                margin: 0.5rem 0;
-                text-align: center;
+            .current-price {
+                font-size: 2rem;
             }
 
-            .whatsapp-float {
-                width: 50px;
-                height: 50px;
-                bottom: 20px;
-                right: 20px;
-                font-size: 24px;
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1.2rem;
             }
         }
 
-        /* Animations */
-        .fade-in {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .hero {
+                padding: 60px 0;
+            }
+
+            .hero-text h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-text .tagline {
+                font-size: 1.1rem;
+            }
+
+            .problem-content h2,
+            .solution-text h2,
+            .gallery-section h2,
+            .features-section h2,
+            .testimonials-section h2 {
+                font-size: 2rem;
+            }
         }
 
-        .fade-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Loading Animation */
-        .loading {
+        /* Floating Elements */
+        .floating-badge {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: white;
+            top: 20px;
+            right: 20px;
+            background: #e74c3c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 25px;
+            font-weight: 600;
+            z-index: 100;
+            animation: bounce 2s infinite;
+        }
+
+        .trust-badges {
             display: flex;
-            align-items: center;
             justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
         }
 
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid var(--primary-gradient);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
+        .trust-badge {
+            background: rgba(255,255,255,0.1);
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px);
         }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .trust-badge i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #00b894;
         }
     </style>
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div class="loading" id="loading">
-        <div class="spinner"></div>
+    <!-- Floating Badge -->
+    <div class="floating-badge">
+        <i class="fas fa-fire"></i> PROMO TERBATAS!
     </div>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="nav-container">
-            <div class="logo">✨☀️ SolarLights Premium</div>
-            <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb" class="nav-cta">
-                <i class="fas fa-shopping-cart"></i> Order Sekarang
-            </a>
-        </div>
-    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-container">
+        <div class="container">
             <div class="hero-content">
-                <h1>✨☀️ Solar Wall Lights Outdoor Premium</h1>
-                <p class="subtitle">Lampu Taman Solar Premium dengan Teknologi IP65 Waterproof - Hemat Energi, Ramah Lingkungan, dan Tahan Lama!</p>
-                
-                <div class="price-container">
-                    <span class="original-price">Harga Normal: Rp 335.000</span>
-                    <span class="current-price">Rp 175.000</span>
-                    <span class="discount-badge">HEMAT 49%!</span>
-                </div>
+                <div class="hero-text">
+                    <h1>Suction Cup Bathroom Storage Rack</h1>
+                    <p class="tagline">Solusi Cerdas Penyimpanan Kamar Mandi Tanpa Bor - Praktis, Kuat, dan Elegan!</p>
+                    
+                    <div class="stats">
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <h3 id="viewers">1,247</h3>
+                                <p>Sedang Melihat</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 id="stock">23</h3>
+                                <p>Stok Tersisa</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>4.9/5</h3>
+                                <p>Rating Customer</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="hero-cta">
-                    <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb" class="cta-primary">
-                        <i class="fas fa-bolt"></i> ORDER SEKARANG
-                    </a>
-                    <a href="tel:081358975338" class="cta-secondary">
-                        <i class="fas fa-phone"></i> Hubungi Kami
-                    </a>
+                    <div class="trust-badges">
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Garansi 100%</p>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-truck"></i>
+                            <p>Gratis Ongkir</p>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-medal"></i>
+                            <p>Premium Quality</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-image">
-                <img src="https://cdn.hotishop.com/image/b414dd81f400c90c9709608ac15a2d80ec3aa52a-600.png" alt="Solar Wall Lights Premium" loading="lazy">
+                <div class="hero-image">
+                    <img src="https://d3qyjp7jfs525i.cloudfront.net/4618b2840c0142728e4ed7605dab8459.gif" alt="Suction Cup Bathroom Storage Rack" onclick="openModal(this.src)">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Countdown Timer -->
-    <section class="countdown">
+    <!-- Problem Section -->
+    <section class="problem-section">
         <div class="container">
-            <h3>⚡ PROMO TERBATAS BERAKHIR DALAM:</h3>
-            <div class="countdown-container">
-                <div class="countdown-item">
-                    <span class="countdown-number" id="hours">23</span>
-                    <span class="countdown-label">JAM</span>
-                </div>
-                <div class="countdown-item">
-                    <span class="countdown-number" id="minutes">45</span>
-                    <span class="countdown-label">MENIT</span>
-                </div>
-                <div class="countdown-item">
-                    <span class="countdown-number" id="seconds">30</span>
-                    <span class="countdown-label">DETIK</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Keunggulan Premium</h2>
-            <p class="section-subtitle">Dapatkan kualitas terbaik dengan teknologi canggih untuk kebutuhan penerangan outdoor Anda</p>
-            
-            <div class="features-grid">
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
+            <div class="problem-content">
+                <h2>Masalah yang Sering Dialami di Kamar Mandi</h2>
+                <div class="problem-list">
+                    <div class="problem-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Kamar Mandi Berantakan</h3>
+                        <p>Sabun, shampo, dan perlengkapan mandi berserakan di lantai atau sudut kamar mandi</p>
                     </div>
-                    <h3>IP65 Waterproof</h3>
-                    <p>Tahan air dan debu, cocok untuk segala cuaca ekstrem. Dipastikan awet dan tahan lama di luar ruangan.</p>
-                </div>
-                
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-sun"></i>
-                    </div>
-                    <h3>Solar Powered</h3>
-                    <p>Hemat listrik 100%! Menggunakan energi matahari yang ramah lingkungan dan ekonomis.</p>
-                </div>
-                
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
+                    <div class="problem-item">
                         <i class="fas fa-tools"></i>
+                        <h3>Tidak Ingin Melubangi Dinding</h3>
+                        <p>Takut merusak keramik atau dinding kamar mandi dengan bor untuk memasang rak</p>
                     </div>
-                    <h3>Mudah Dipasang</h3>
-                    <p>Instalasi super mudah tanpa perlu kabel atau listrik. Cukup pasang dan langsung menyala otomatis.</p>
+                    <div class="problem-item">
+                        <i class="fas fa-water"></i>
+                        <h3>Mudah Berkarat & Rusak</h3>
+                        <p>Rak biasa mudah berkarat karena kelembaban tinggi di kamar mandi</p>
+                    </div>
+                    <div class="problem-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Ruang Terbatas</h3>
+                        <p>Kamar mandi sempit membutuhkan solusi penyimpanan yang efisien dan tidak memakan tempat</p>
+                    </div>
                 </div>
-                
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>LED Premium</h3>
-                    <p>Cahaya terang dan hemat energi dengan teknologi LED terdepan. Awet hingga 50.000 jam.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>Solusi Terbaik: Suction Cup Storage Rack!</h2>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> <strong>Tanpa Bor & Mudah Dipasang</strong> - Cukup tempel dengan teknologi suction cup super kuat</li>
+                        <li><i class="fas fa-check"></i> <strong>Tahan Air & Anti Karat</strong> - Material berkualitas tinggi tahan kelembaban</li>
+                        <li><i class="fas fa-check"></i> <strong>Hemat Ruang</strong> - Design kompak dan fungsional untuk kamar mandi minimalis</li>
+                        <li><i class="fas fa-check"></i> <strong>Multifungsi</strong> - Bisa untuk sabun, shampo, sikat gigi, dan aksesoris lainnya</li>
+                        <li><i class="fas fa-check"></i> <strong>Daya Tahan Kuat</strong> - Mampu menahan beban hingga 10kg</li>
+                    </ul>
                 </div>
-                
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-moon"></i>
-                    </div>
-                    <h3>Auto On/Off</h3>
-                    <p>Sensor otomatis menyala saat gelap dan mati saat terang. Praktis dan pintar!</p>
-                </div>
-                
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>Kualitas Premium</h3>
-                    <p>Material berkualitas tinggi dengan garansi resmi. Investasi terbaik untuk rumah Anda.</p>
+                <div class="solution-image">
+                    <img src="https://d3qyjp7jfs525i.cloudfront.net/648af5d2919c460da9df37f73b711dce.gif" alt="Solution" onclick="openModal(this.src)" style="border-radius: 15px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Product Gallery -->
-    <section class="gallery">
+    <section class="gallery-section">
         <div class="container">
-            <h2 class="section-title">Galeri Produk</h2>
-            <p class="section-subtitle">Lihat detail produk premium dari berbagai sudut</p>
-            
+            <h2>Galeri Produk</h2>
             <div class="gallery-grid">
-                <div class="gallery-item fade-in">
-                    <img src="https://cdn.hotishop.com/image/8abe2dc68ce175a35c0e779b1d1fb969474c0a21.gif" alt="Solar Lights Animation" loading="lazy">
+                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/01f8dd5b215706441780c4e725de551463210011877121007735815EN2dc0a59465f32023a54196485570c5b08.jpg')">
+                    <img src="https://pic.compgoo.com/ueditor/autoLoad/01f8dd5b215706441780c4e725de551463210011877121007735815EN2dc0a59465f32023a54196485570c5b08.jpg" alt="Product Detail 1">
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="https://cdn.hotishop.com/image/b414dd81f400c90c9709608ac15a2d80ec3aa52a-600.png" alt="Solar Wall Lights" loading="lazy">
+                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/9797d1da83b9acfcd1ede1dd3ead77ca63210011877121007735815EN25c22dbafdc412fe82ac1d550e743c90d.jpg')">
+                    <img src="https://pic.compgoo.com/ueditor/autoLoad/9797d1da83b9acfcd1ede1dd3ead77ca63210011877121007735815EN25c22dbafdc412fe82ac1d550e743c90d.jpg" alt="Product Detail 2">
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="https://cdn.hotishop.com/image/6eaf6a5cd41dee191ff57ef2ca8a3d4f28186879.png" alt="Installation Guide" loading="lazy">
+                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/7da582f608c58ed017f77f49431500b463210011877121007735815EN239e9cb4ca752331de9d4e9242c5d4c87.jpg')">
+                    <img src="https://pic.compgoo.com/ueditor/autoLoad/7da582f608c58ed017f77f49431500b463210011877121007735815EN239e9cb4ca752331de9d4e9242c5d4c87.jpg" alt="Product Detail 3">
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="https://cdn.hotishop.com/image/d1a2dc3de89a29168a7e9a87454b4052e5ffe666-600.png" alt="Waterproof Feature" loading="lazy">
+                <div class="gallery-item" onclick="openModal('https://d3qyjp7jfs525i.cloudfront.net/73ab9f4d9a7848d9940c8ddbe8ff3575.gif')">
+                    <img src="https://d3qyjp7jfs525i.cloudfront.net/73ab9f4d9a7848d9940c8ddbe8ff3575.gif" alt="Product Demo 1">
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="https://cdn.hotishop.com/image/0d89d872ca7925827d62fa65093bbe20c4065a0f.jpeg" alt="Night View" loading="lazy">
+                <div class="gallery-item" onclick="openModal('https://d3qyjp7jfs525i.cloudfront.net/dbb14465c2784509a0b022972fdbe41f.gif')">
+                    <img src="https://d3qyjp7jfs525i.cloudfront.net/dbb14465c2784509a0b022972fdbe41f.gif" alt="Product Demo 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2>Keunggulan Utama Produk</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-magic"></i>
+                    <h3>Teknologi Suction Cup</h3>
+                    <p>Sistem hisap super kuat yang bisa menempel di berbagai permukaan halus tanpa merusak dinding</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tint"></i>
+                    <h3>100% Waterproof</h3>
+                    <p>Material premium anti air dan anti karat, cocok untuk lingkungan kamar mandi yang lembab</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-weight-hanging"></i>
+                    <h3>Daya Tahan Maksimal</h3>
+                    <p>Mampu menahan beban hingga 10kg, cukup kuat untuk semua kebutuhan penyimpanan Anda</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Design Modern</h3>
+                    <p>Tampilan elegan dan minimalis yang cocok dengan berbagai tema dekorasi kamar mandi</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Eco-Friendly</h3>
+                    <p>Bahan ramah lingkungan dan dapat digunakan berulang kali tanpa merusak lingkungan</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Instalasi 1 Menit</h3>
+                    <p>Pemasangan super cepat dan mudah, tidak perlu alat khusus atau keahlian teknis</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials-section">
         <div class="container">
-            <h2 class="section-title">Testimoni Pelanggan</h2>
-            <p class="section-subtitle">Kepuasan pelanggan adalah prioritas utama kami</p>
-            
+            <h2>Testimoni Customer Yang Puas</h2>
             <div class="testimonials-grid">
-                <div class="testimonial-card fade-in">
+                <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
-                    <p>Produk sangat bagus! Cahayanya terang dan awet. Sudah 6 bulan pakai masih seperti baru. Recommended banget!</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">BU</div>
-                        <div>
-                            <strong>Budi Santoso</strong>
-                            <div style="font-size: 0.9rem; color: #666;">Jakarta</div>
-                        </div>
-                    </div>
+                    <p>"Produk ini benar-benar mengubah kamar mandi saya! Sekarang semua tertata rapi dan tidak berantakan lagi. Pemasangan super mudah, cuma ditempel aja langsung kuat!"</p>
+                    <div class="customer-info">- Sari, Jakarta</div>
                 </div>
-                
-                <div class="testimonial-card fade-in">
+                <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
-                    <p>Instalasi mudah sekali, tidak perlu ribet dengan kabel listrik. Hemat banget! Taman jadi cantik di malam hari.</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">SR</div>
-                        <div>
-                            <strong>Sari Rahayu</strong>
-                            <div style="font-size: 0.9rem; color: #666;">Surabaya</div>
-                        </div>
-                    </div>
+                    <p>"Sudah 8 bulan pakai dan masih kokoh banget! Bisa tahan air dan gak berkarat sama sekali. Worth it banget buat harga segini dapat kualitas premium."</p>
+                    <div class="customer-info">- Rina, Surabaya</div>
                 </div>
-                
-                <div class="testimonial-card fade-in">
+                <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
-                    <p>Waterproof beneran! Hujan deras tetap menyala normal. Kualitas premium dengan harga terjangkau.</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AG</div>
-                        <div>
-                            <strong>Ahmad Gunawan</strong>
-                            <div style="font-size: 0.9rem; color: #666;">Bandung</div>
-                        </div>
-                    </div>
+                    <p>"Awalnya ragu beli online, tapi ternyata kualitasnya melebihi ekspektasi! Kamar mandi kecil saya jadi lebih fungsional dan estetik. Recommended!"</p>
+                    <div class="customer-info">- Maya, Bandung</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Yang paling suka dari produk ini gak perlu bor-bor dinding! Tinggal tempel dan langsung bisa dipake. Suami saya juga seneng gak ribet pasangnya hehe."</p>
+                    <div class="customer-info">- Dewi, Medan</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section class="faq">
+    <!-- Countdown Timer -->
+    <section class="countdown-section">
         <div class="container">
-            <h2 class="section-title">Frequently Asked Questions</h2>
-            <p class="section-subtitle">Pertanyaan yang sering diajukan</p>
-            
-            <div class="faq-list">
-                <div class="faq-item fade-in">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Apakah produk ini tahan hujan?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Ya, produk ini memiliki rating IP65 yang artinya sangat tahan terhadap air dan debu. Aman digunakan dalam segala cuaca termasuk hujan lebat.</p>
-                    </div>
+            <h2>⚡ PROMO TERBATAS WAKTU! ⚡</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px;">Dapatkan diskon spesial sebelum promo berakhir!</p>
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <div class="number" id="hours">12</div>
+                    <div class="label">Jam</div>
                 </div>
-                
-                <div class="faq-item fade-in">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Berapa lama lampu menyala setelah dicharge?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Setelah dicharge penuh (6-8 jam di bawah sinar matahari), lampu dapat menyala hingga 8-12 jam tergantung kondisi cuaca dan intensitas cahaya LED.</p>
-                    </div>
+                <div class="countdown-item">
+                    <div class="number" id="minutes">34</div>
+                    <div class="label">Menit</div>
                 </div>
-                
-                <div class="faq-item fade-in">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Apakah mudah dipasang?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Sangat mudah! Tidak memerlukan kabel listrik atau instalasi rumit. Cukup pasang dengan sekrup yang disediakan dan lampu siap digunakan.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item fade-in">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Apakah ada garansi?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Ya, kami memberikan garansi resmi 1 tahun untuk kerusakan manufaktur dan penggantian jika produk tidak berfungsi normal.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item fade-in">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Bagaimana cara pemesanan?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Klik tombol "ORDER SEKARANG" atau hubungi WhatsApp kami di 081358975338. Tim kami siap membantu proses pemesanan Anda.</p>
-                    </div>
+                <div class="countdown-item">
+                    <div class="number" id="seconds">56</div>
+                    <div class="label">Detik</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trust Badges -->
-    <section class="trust-badges" style="padding: 60px 0; background: white;">
+    <!-- Price Banner -->
+    <section class="price-banner">
         <div class="container">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
-                <div class="trust-item fade-in">
-                    <div style="font-size: 3rem; color: var(--primary-gradient); margin-bottom: 1rem;">
-                        <i class="fas fa-shipping-fast"></i>
-                    </div>
-                    <h4>GRATIS ONGKIR</h4>
-                    <p>Ke seluruh Indonesia</p>
-                </div>
-                <div class="trust-item fade-in">
-                    <div style="font-size: 3rem; color: var(--primary-gradient); margin-bottom: 1rem;">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h4>GARANSI RESMI</h4>
-                    <p>1 tahun penuh</p>
-                </div>
-                <div class="trust-item fade-in">
-                    <div style="font-size: 3rem; color: var(--primary-gradient); margin-bottom: 1rem;">
-                        <i class="fas fa-undo-alt"></i>
-                    </div>
-                    <h4>UANG KEMBALI</h4>
-                    <p>Jika tidak puas</p>
-                </div>
-                <div class="trust-item fade-in">
-                    <div style="font-size: 3rem; color: var(--primary-gradient); margin-bottom: 1rem;">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h4>SUPPORT 24/7</h4>
-                    <p>Layanan pelanggan</p>
-                </div>
+            <div class="price-content">
+                <h2 style="font-size: 2rem; margin-bottom: 20px;">🔥 PENAWARAN SPESIAL BUY 1 GET 1! 🔥</h2>
+                <div class="original-price">Harga Normal: Rp 266.710</div>
+                <div class="current-price">Rp 179.000</div>
+                <div class="price-label">Hemat Rp 87.710 + GRATIS 1 PCS!</div>
+                <p style="margin-top: 20px; font-size: 1.1rem;">✅ Gratis Ongkir Seluruh Indonesia<br>
+                ✅ Garansi Uang Kembali 100%<br>
+                ✅ Customer Service 24/7</p>
             </div>
         </div>
     </section>
 
-    <!-- Payment Methods -->
-    <section class="payment-methods" style="padding: 60px 0; background: var(--bg-light);">
-        <div class="container">
-            <h2 class="section-title">Metode Pembayaran</h2>
-            <p class="section-subtitle">Pilih metode pembayaran yang paling nyaman untuk Anda</p>
-            
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem;">
-                <div style="background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: var(--shadow-lg);">
-                    <i class="fas fa-credit-card" style="font-size: 2rem; color: var(--primary-gradient); margin-bottom: 0.5rem;"></i>
-                    <p>Kartu Kredit</p>
-                </div>
-                <div style="background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: var(--shadow-lg);">
-                    <i class="fas fa-university" style="font-size: 2rem; color: var(--primary-gradient); margin-bottom: 0.5rem;"></i>
-                    <p>Transfer Bank</p>
-                </div>
-                <div style="background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: var(--shadow-lg);">
-                    <i class="fas fa-mobile-alt" style="font-size: 2rem; color: var(--primary-gradient); margin-bottom: 0.5rem;"></i>
-                    <p>E-Wallet</p>
-                </div>
-                <div style="background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: var(--shadow-lg);">
-                    <i class="fas fa-money-bill-wave" style="font-size: 2rem; color: var(--primary-gradient); margin-bottom: 0.5rem;"></i>
-                    <p>COD</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA Section -->
+    <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <h2>🔥 Jangan Sampai Kehabisan!</h2>
-            <p>Stok terbatas! Dapatkan Solar Wall Lights Premium dengan diskon 49% hari ini juga!</p>
-            <div style="margin: 2rem 0;">
-                <div style="font-size: 1.5rem; margin-bottom: 1rem;">
-                    <span style="text-decoration: line-through; opacity: 0.7;">Rp 335.000</span>
-                    <span style="font-size: 2.5rem; font-weight: bold; display: block;">Rp 175.000</span>
-                </div>
-            </div>
-            <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb" class="cta-primary" style="font-size: 1.3rem; padding: 1.2rem 3rem;">
-                <i class="fas fa-bolt"></i> ORDER SEKARANG - HEMAT 49%!
+            <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Jangan Sampai Kehabisan!</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 40px;">Ribuan customer sudah merasakan manfaatnya. Sekarang giliran Anda!</p>
+            <a href="https://luna.orderonline.id/bathroom-storage-rack" class="cta-button" target="_blank">
+                <i class="fas fa-shopping-cart"></i> AMBIL PROMO STOCK TERBATAS!
             </a>
-            <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
-                <i class="fas fa-lock"></i> Transaksi 100% Aman & Terpercaya
+            <p style="margin-top: 30px; font-size: 1rem; opacity: 0.9;">
+                <i class="fas fa-lock"></i> Pembayaran 100% Aman & Terpercaya
             </p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>✨☀️ SolarLights Premium</h3>
-                    <p>Solusi penerangan outdoor terbaik dengan teknologi solar yang ramah lingkungan dan hemat energi.</p>
-                    <div style="margin-top: 1rem;">
-                        <i class="fas fa-phone"></i> 081358975338<br>
-                        <i class="fas fa-envelope"></i> info@solarlights.com
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Produk</h3>
-                    <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb">Solar Wall Lights</a>
-                    <a href="#features">Spesifikasi</a>
-                    <a href="#gallery">Galeri</a>
-                    <a href="#testimonials">Testimoni</a>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Informasi</h3>
-                    <a href="#faq">FAQ</a>
-                    <a href="https://www.fulfilexces.com/products/4led-solar-wall-lights-outdoor-light-waterproof-4">Panduan Produk</a>
-                    <a href="#guarantee">Garansi</a>
-                    <a href="#shipping">Pengiriman</a>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Hubungi Kami</h3>
-                    <a href="tel:081358975338"><i class="fas fa-phone"></i> 081358975338</a>
-                    <a href="https://wa.me/6281358975338"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                    <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb"><i class="fas fa-shopping-cart"></i> Order Online</a>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2024 SolarLights Premium. All rights reserved. | Made with ❤️ for sustainable lighting</p>
-            </div>
+    <!-- Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Product Image">
         </div>
-    </footer>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/6281358975338?text=Halo,%20saya%20tertarik%20dengan%20Solar%20Wall%20Lights%20Premium" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- Sticky Order Button -->
-    <div class="sticky-order" id="stickyOrder">
-        <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb" class="cta-primary">
-            <i class="fas fa-bolt"></i> ORDER SEKARANG - Rp 175.000
-        </a>
     </div>
 
     <script>
-        // Loading Screen
-        window.addEventListener('load', function() {
-            document.getElementById('loading').style.opacity = '0';
-            setTimeout(() => {
-                document.getElementById('loading').style.display = 'none';
-            }, 500);
-        });
+        // Dynamic Counter Animation
+        function animateCounter(id, start, end, duration) {
+            const obj = document.getElementById(id);
+            const range = end - start;
+            const increment = range / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= end) {
+                    current = end;
+                    clearInterval(timer);
+                }
+                obj.textContent = Math.floor(current);
+            }, 16);
+        }
 
-        // Smooth Scrolling
+        // Random viewer counter
+        function updateViewers() {
+            const viewers = document.getElementById('viewers');
+            const currentViewers = parseInt(viewers.textContent);
+            const change = Math.floor(Math.random() * 20) - 10; // -10 to +10
+            const newViewers = Math.max(1200, currentViewers + change);
+            viewers.textContent = newViewers;
+        }
+
+        // Random stock counter (decreasing)
+        function updateStock() {
+            const stock = document.getElementById('stock');
+            const currentStock = parseInt(stock.textContent);
+            if (currentStock > 5) {
+                const newStock = currentStock - Math.floor(Math.random() * 2);
+                stock.textContent = newStock;
+            }
+        }
+
+        // Countdown Timer
+        function startCountdown() {
+            const now = new Date().getTime();
+            const countdownTime = now + (24 * 60 * 60 * 1000); // 24 hours from now
+            
+            const timer = setInterval(() => {
+                const now = new Date().getTime();
+                const distance = countdownTime - now;
+                
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+                
+                if (distance < 0) {
+                    clearInterval(timer);
+                    // Restart countdown
+                    startCountdown();
+                }
+            }, 1000);
+        }
+
+        // Modal Functions
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = imageSrc;
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1083,7 +948,7 @@
             });
         });
 
-        // Fade In Animation on Scroll
+        // Intersection Observer for animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -1092,127 +957,108 @@
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+                    entry.target.style.animationPlayState = 'running';
                 }
             });
         }, observerOptions);
 
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Header Background on Scroll
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('.header');
-            const stickyOrder = document.getElementById('stickyOrder');
+        // Observe all animated elements
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start animations and counters
+            animateCounter('viewers', 1200, 1247, 2000);
+            startCountdown();
             
-            if (window.scrollY > 100) {
-                header.style.background = 'rgba(255,255,255,0.98)';
-                header.style.boxShadow = '0 2px 30px rgba(0,0,0,0.15)';
-            } else {
-                header.style.background = 'rgba(255,255,255,0.95)';
-                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
-            }
-
-            // Show/Hide Sticky Order Button
-            if (window.scrollY > 800) {
-                stickyOrder.classList.add('show');
-            } else {
-                stickyOrder.classList.remove('show');
-            }
-        });
-
-        // FAQ Toggle
-        function toggleFAQ(element) {
-            const answer = element.nextElementSibling;
-            const icon = element.querySelector('i');
+            // Update dynamic counters
+            setInterval(updateViewers, 30000); // Update viewers every 30 seconds
+            setInterval(updateStock, 60000); // Update stock every minute
             
-            answer.classList.toggle('active');
+            // Observe animated elements
+            const animatedElements = document.querySelectorAll('.problem-item, .feature-card, .testimonial-card');
+            animatedElements.forEach(el => {
+                observer.observe(el);
+            });
+
+            // Add scroll effects
+            window.addEventListener('scroll', () => {
+                const scrolled = window.pageYOffset;
+                const parallax = document.querySelector('.hero');
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            });
+
+            // Add hover effects to CTA button
+            const ctaButton = document.querySelector('.cta-button');
+            ctaButton.addEventListener('mouseenter', () => {
+                ctaButton.style.transform = 'translateY(-5px) scale(1.05)';
+            });
             
-            if (answer.classList.contains('active')) {
-                icon.style.transform = 'rotate(180deg)';
-            } else {
-                icon.style.transform = 'rotate(0deg)';
-            }
-        }
+            ctaButton.addEventListener('mouseleave', () => {
+                ctaButton.style.transform = 'translateY(0) scale(1)';
+            });
 
-        // Countdown Timer
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const tomorrow = new Date();
-            tomorrow.setDate(tomorrow.getDate() + 1);
-            tomorrow.setHours(0, 0, 0, 0);
-            const distance = tomorrow.getTime() - now;
-
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-        }
-
-        // Update countdown every second
-        updateCountdown();
-        setInterval(updateCountdown, 1000);
-
-        // Add click tracking for analytics
-        document.querySelectorAll('a[href*="luna.orderonline.id"]').forEach(link => {
-            link.addEventListener('click', function() {
-                // Track conversion events here
-                console.log('Order button clicked');
-                // Add your analytics tracking code here
+            // Add click tracking
+            ctaButton.addEventListener('click', () => {
+                // Track conversion
+                console.log('CTA clicked - redirecting to order form');
             });
         });
 
-        // Mobile touch improvements
-        if ('ontouchstart' in window) {
-            document.body.classList.add('touch-device');
-        }
-
-        // Lazy loading for images
-        const images = document.querySelectorAll('img[loading="lazy"]');
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.src = img.src;
-                    img.classList.remove('lazy');
-                    imageObserver.unobserve(img);
-                }
-            });
+        // Prevent right-click on images (basic protection)
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.preventDefault();
+            }
         });
 
-        images.forEach(img => imageObserver.observe(img));
+        // Add floating elements animation
+        function createFloatingElements() {
+            const hero = document.querySelector('.hero');
+            for (let i = 0; i < 10; i++) {
+                const bubble = document.createElement('div');
+                bubble.style.cssText = `
+                    position: absolute;
+                    width: ${Math.random() * 20 + 10}px;
+                    height: ${Math.random() * 20 + 10}px;
+                    background: rgba(255,255,255,0.1);
+                    border-radius: 50%;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    animation: float ${Math.random() * 3 + 2}s ease-in-out infinite;
+                    animation-delay: ${Math.random() * 2}s;
+                `;
+                hero.appendChild(bubble);
+            }
+        }
 
-        // Exit intent popup (desktop only)
+        // Initialize floating elements
+        createFloatingElements();
+
+        // Add exit-intent popup
         let exitIntentShown = false;
-        if (window.innerWidth > 768) {
-            document.addEventListener('mouseleave', function(e) {
-                if (e.clientY <= 0 && !exitIntentShown) {
-                    exitIntentShown = true;
-                    showExitIntentPopup();
-                }
-            });
+        document.addEventListener('mouseleave', function(e) {
+            if (e.clientY <= 0 && !exitIntentShown) {
+                exitIntentShown = true;
+                alert('Tunggu! Jangan lewatkan promo spesial Buy 1 Get 1 ini! Klik OK untuk melanjutkan pembelian.');
+            }
+        });
+
+        // Add urgency messages
+        const urgencyMessages = [
+            "⚡ 15 orang sedang melihat produk ini!",
+            "🔥 Stok hampir habis, pesan sekarang!",
+            "⏰ Promo berakhir dalam hitungan jam!",
+            "💯 Garansi uang kembali 100%!"
+        ];
+
+        let messageIndex = 0;
+        function showUrgencyMessage() {
+            const badge = document.querySelector('.floating-badge');
+            badge.innerHTML = urgencyMessages[messageIndex];
+            messageIndex = (messageIndex + 1) % urgencyMessages.length;
         }
 
-        function showExitIntentPopup() {
-            const popup = document.createElement('div');
-            popup.innerHTML = `
-                <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; display: flex; align-items: center; justify-content: center;">
-                    <div style="background: white; padding: 2rem; border-radius: 20px; max-width: 500px; text-align: center; position: relative;">
-                        <button onclick="this.parentElement.parentElement.remove()" style="position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
-                        <h3 style="color: var(--text-dark); margin-bottom: 1rem;">Tunggu! Jangan Lewatkan Kesempatan Ini!</h3>
-                        <p style="margin-bottom: 1.5rem;">Dapatkan diskon ekstra 5% dengan kode: <strong>SAVE5</strong></p>
-                        <a href="https://luna.orderonline.id/tanaga-surya-8w-rgb" style="background: var(--primary-gradient); color: white; padding: 1rem 2rem; border-radius: 25px; text-decoration: none; display: inline-block;">
-                            <i class="fas fa-gift"></i> Klaim Diskon Sekarang
-                        </a>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(popup);
-        }
+        // Rotate urgency messages
+        setInterval(showUrgencyMessage, 5000);
     </script>
 </body>
 </html>
