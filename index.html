@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suction Cup Bathroom Storage Rack - Solusi Penyimpanan Kamar Mandi Modern</title>
+    <title>New Thick-Soled Flip-Flops Sandals For Women's - Promo Terbatas!</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -25,11 +25,62 @@
             padding: 0 20px;
         }
 
-        /* Header Section */
+        /* Floating Stats */
+        .floating-stats {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .stat-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .stat-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .viewers-dot {
+            width: 8px;
+            height: 8px;
+            background: #22c55e;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .stock-bar {
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+            border-radius: 2px;
+        }
+
+        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 80px 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
             position: relative;
             overflow: hidden;
         }
@@ -41,175 +92,293 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
-            animation: float 20s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1.5" fill="white" opacity="0.05"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            opacity: 0.3;
         }
 
         .hero-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            gap: 60px;
             align-items: center;
             position: relative;
             z-index: 2;
         }
 
-        .hero-text h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-            animation: slideInLeft 1s ease-out;
-        }
-
-        .hero-text .tagline {
-            font-size: 1.3rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-            animation: slideInLeft 1s ease-out 0.3s both;
-        }
-
-        .hero-image {
-            text-align: center;
-            animation: slideInRight 1s ease-out;
-        }
-
-        .hero-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            transition: transform 0.3s ease;
-        }
-
-        .hero-image img:hover {
-            transform: scale(1.05);
-        }
-
-        /* Stats Counter */
-        .stats {
-            background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 15px;
-            margin-top: 30px;
-            backdrop-filter: blur(10px);
-            animation: slideInUp 1s ease-out 0.6s both;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            text-align: center;
-        }
-
-        .stat-item h3 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .stat-item p {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        /* Problem Section */
-        .problem-section {
-            padding: 80px 0;
-            background: #f8f9fa;
-        }
-
-        .problem-content {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .problem-content h2 {
-            font-size: 2.5rem;
-            color: #333;
-            margin-bottom: 30px;
-            animation: fadeInUp 1s ease-out;
-        }
-
-        .problem-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin: 50px 0;
-        }
-
-        .problem-item {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-            animation: fadeInUp 1s ease-out;
-        }
-
-        .problem-item:hover {
-            transform: translateY(-10px);
-        }
-
-        .problem-item i {
-            font-size: 3rem;
-            color: #e74c3c;
-            margin-bottom: 20px;
-        }
-
-        /* Solution Section */
-        .solution-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+        .hero-text {
             color: white;
         }
 
-        .solution-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
-            align-items: center;
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            animation: slideInLeft 1s ease-out;
         }
 
-        .solution-text h2 {
-            font-size: 2.5rem;
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            animation: slideInLeft 1s ease-out 0.2s both;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
             margin-bottom: 30px;
-            animation: slideInLeft 1s ease-out;
+            animation: slideInLeft 1s ease-out 0.4s both;
         }
 
-        .solution-features {
-            list-style: none;
+        .hero-image {
+            position: relative;
+            animation: slideInRight 1s ease-out 0.6s both;
         }
 
-        .solution-features li {
-            padding: 15px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.2);
-            animation: slideInLeft 1s ease-out;
+        .hero-product-img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
         }
 
-        .solution-features li i {
-            color: #00b894;
-            margin-right: 15px;
+        .hero-product-img:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        /* Price Banner */
+        .price-banner {
+            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+            position: relative;
+            overflow: hidden;
+            animation: slideInUp 1s ease-out 0.8s both;
+        }
+
+        .price-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255, 255, 255, 0.1) 10px,
+                rgba(255, 255, 255, 0.1) 20px
+            );
+            animation: shimmer 3s linear infinite;
+        }
+
+        .price-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .price-old {
+            font-size: 1.5rem;
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 5px;
+        }
+
+        .price-new {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .price-save {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            border-radius: 50px;
             font-size: 1.2rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
         }
 
-        /* Product Gallery */
-        .gallery-section {
-            padding: 80px 0;
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.6);
+        }
+
+        /* Countdown Timer */
+        .countdown-section {
+            background: #1a1a1a;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .countdown-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 20px;
+            border-radius: 15px;
+            min-width: 100px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 14px;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Problem Solution Section */
+        .problem-solution {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 60px;
+            color: #333;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .problem-card, .solution-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .problem-card:hover, .solution-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .problem-icon, .solution-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .problem-icon {
+            color: #ff6b6b;
+        }
+
+        .solution-icon {
+            color: #22c55e;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 100px 0;
             background: white;
         }
 
-        .gallery-section h2 {
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
             text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
             font-size: 2.5rem;
-            margin-bottom: 50px;
-            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Product Gallery */
+        .gallery {
+            padding: 100px 0;
+            background: #f8f9fa;
         }
 
         .gallery-grid {
@@ -222,7 +391,6 @@
             position: relative;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             cursor: pointer;
             transition: transform 0.3s ease;
         }
@@ -231,226 +399,23 @@
             transform: scale(1.05);
         }
 
-        .gallery-item img {
+        .gallery-img {
             width: 100%;
-            height: 250px;
+            height: 300px;
             object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
-        /* Features Section */
-        .features-section {
-            padding: 80px 0;
-            background: #f8f9fa;
-        }
-
-        .features-section h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 50px;
-            color: #333;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-            animation: fadeInUp 1s ease-out;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .feature-card i {
-            font-size: 3rem;
-            color: #74b9ff;
-            margin-bottom: 20px;
-        }
-
-        /* Testimonials */
-        .testimonials-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
-            color: white;
-        }
-
-        .testimonials-section h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 50px;
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .testimonial-card {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-            animation: fadeInUp 1s ease-out;
-        }
-
-        .testimonial-card .stars {
-            color: #ffd700;
-            margin-bottom: 15px;
-            font-size: 1.2rem;
-        }
-
-        .testimonial-card .customer-info {
-            margin-top: 20px;
-            font-weight: 600;
-        }
-
-        /* Countdown Timer */
-        .countdown-section {
-            padding: 50px 0;
-            background: #e74c3c;
-            color: white;
-            text-align: center;
-        }
-
-        .countdown-timer {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 30px;
-        }
-
-        .countdown-item {
-            background: rgba(255,255,255,0.2);
-            padding: 20px;
-            border-radius: 10px;
-            min-width: 80px;
-        }
-
-        .countdown-item .number {
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
-        .countdown-item .label {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        /* Price Banner */
-        .price-banner {
-            background: linear-gradient(45deg, #00b894, #00cec9);
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .price-banner::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
-            background-size: 50px 50px;
-            animation: float 15s linear infinite;
-        }
-
-        .price-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .original-price {
-            font-size: 1.5rem;
-            text-decoration: line-through;
-            opacity: 0.7;
-            margin-bottom: 10px;
-        }
-
-        .current-price {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        .price-label {
-            font-size: 1.2rem;
-            background: rgba(255,255,255,0.2);
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 25px;
-            margin-top: 20px;
-        }
-
-        /* CTA Section */
-        .cta-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
-            color: white;
-            text-align: center;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(45deg, #00b894, #00cec9);
-            color: white;
-            padding: 20px 50px;
-            font-size: 1.5rem;
-            font-weight: 700;
-            text-decoration: none;
-            border-radius: 50px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            transition: all 0.3s ease;
-            animation: bounce 2s infinite;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-            40% { transform: translateY(-10px); }
-            60% { transform: translateY(-5px); }
         }
 
         /* Modal */
         .modal {
             display: none;
             position: fixed;
-            z-index: 1000;
+            z-index: 9999;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0,0,0,0.9);
-            animation: fadeIn 0.3s ease-out;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
         }
 
         .modal-content {
@@ -462,79 +427,189 @@
             max-height: 90%;
         }
 
-        .modal-content img {
+        .modal-img {
             width: 100%;
             height: auto;
             border-radius: 10px;
         }
 
-        .close {
+        .modal-close {
             position: absolute;
-            top: 20px;
-            right: 35px;
-            color: #fff;
-            font-size: 40px;
+            top: 15px;
+            right: 25px;
+            color: white;
+            font-size: 35px;
             font-weight: bold;
             cursor: pointer;
         }
 
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .testimonial-stars {
+            color: #ffd93d;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Urgency Section */
+        .urgency {
+            background: #ff6b6b;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .urgency-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .urgency-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background: #1a1a1a;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .final-cta-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #ff6b6b;
+        }
+
         /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
         @keyframes slideInLeft {
-            from { opacity: 0; transform: translateX(-50px); }
-            to { opacity: 1; transform: translateX(0); }
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         @keyframes slideInUp {
-            from { opacity: 0; transform: translateY(50px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
         }
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
+            .floating-stats {
+                position: relative;
+                top: auto;
+                left: auto;
+                margin: 20px auto;
+                width: fit-content;
+            }
+
             .hero-content {
                 grid-template-columns: 1fr;
+                gap: 40px;
                 text-align: center;
             }
 
-            .hero-text h1 {
-                font-size: 2rem;
-            }
-
-            .solution-content {
-                grid-template-columns: 1fr;
-            }
-
-            .stats-grid {
-                grid-template-columns: 1fr;
+            .hero-title {
+                font-size: 2.5rem;
             }
 
             .countdown-timer {
-                flex-wrap: wrap;
                 gap: 15px;
             }
 
-            .current-price {
+            .countdown-item {
+                min-width: 80px;
+                padding: 15px;
+            }
+
+            .countdown-number {
                 font-size: 2rem;
             }
 
-            .cta-button {
-                padding: 15px 30px;
-                font-size: 1.2rem;
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .problem-grid, .features-grid, .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .price-new {
+                font-size: 2rem;
             }
         }
 
@@ -543,68 +618,32 @@
                 padding: 0 15px;
             }
 
-            .hero {
-                padding: 60px 0;
-            }
-
-            .hero-text h1 {
-                font-size: 1.8rem;
-            }
-
-            .hero-text .tagline {
-                font-size: 1.1rem;
-            }
-
-            .problem-content h2,
-            .solution-text h2,
-            .gallery-section h2,
-            .features-section h2,
-            .testimonials-section h2 {
+            .hero-title {
                 font-size: 2rem;
             }
-        }
 
-        /* Floating Elements */
-        .floating-badge {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #e74c3c;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 25px;
-            font-weight: 600;
-            z-index: 100;
-            animation: bounce 2s infinite;
-        }
-
-        .trust-badges {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 40px 0;
-            flex-wrap: wrap;
-        }
-
-        .trust-badge {
-            background: rgba(255,255,255,0.1);
-            padding: 15px 25px;
-            border-radius: 10px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-        }
-
-        .trust-badge i {
-            font-size: 2rem;
-            margin-bottom: 10px;
-            color: #00b894;
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Floating Badge -->
-    <div class="floating-badge">
-        <i class="fas fa-fire"></i> PROMO TERBATAS!
+    <!-- Floating Stats -->
+    <div class="floating-stats">
+        <div class="stat-item">
+            <div class="stat-icon">
+                <div class="viewers-dot"></div>
+            </div>
+            <span id="viewers">1,247</span> sedang melihat
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon">
+                <div class="stock-bar"></div>
+            </div>
+            Stok: <span id="stock">23</span> tersisa
+        </div>
     </div>
 
     <!-- Hero Section -->
@@ -612,187 +651,26 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Suction Cup Bathroom Storage Rack</h1>
-                    <p class="tagline">Solusi Cerdas Penyimpanan Kamar Mandi Tanpa Bor - Praktis, Kuat, dan Elegan!</p>
+                    <div class="hero-badge">
+                        <i class="fas fa-fire"></i> PROMO TERBATAS HARI INI!
+                    </div>
+                    <h1 class="hero-title">Sandal Jepit Thick-Soled Terbaru untuk Wanita</h1>
+                    <p class="hero-subtitle">Kenyamanan maksimal dengan gaya modern untuk aktivitas sehari-hari Anda</p>
                     
-                    <div class="stats">
-                        <div class="stats-grid">
-                            <div class="stat-item">
-                                <h3 id="viewers">1,247</h3>
-                                <p>Sedang Melihat</p>
-                            </div>
-                            <div class="stat-item">
-                                <h3 id="stock">23</h3>
-                                <p>Stok Tersisa</p>
-                            </div>
-                            <div class="stat-item">
-                                <h3>4.9/5</h3>
-                                <p>Rating Customer</p>
-                            </div>
+                    <div class="price-banner">
+                        <div class="price-content">
+                            <div class="price-old">Rp 261,146</div>
+                            <div class="price-new">Rp 175,400</div>
+                            <div class="price-save">HEMAT 33%!</div>
                         </div>
                     </div>
-
-                    <div class="trust-badges">
-                        <div class="trust-badge">
-                            <i class="fas fa-shield-alt"></i>
-                            <p>Garansi 100%</p>
-                        </div>
-                        <div class="trust-badge">
-                            <i class="fas fa-truck"></i>
-                            <p>Gratis Ongkir</p>
-                        </div>
-                        <div class="trust-badge">
-                            <i class="fas fa-medal"></i>
-                            <p>Premium Quality</p>
-                        </div>
-                    </div>
+                    
+                    <a href="https://luna.orderonline.id/flops-sandals-womens" class="cta-button">
+                        <i class="fas fa-shopping-cart"></i> AMBIL PROMO!
+                    </a>
                 </div>
                 <div class="hero-image">
-                    <img src="https://d3qyjp7jfs525i.cloudfront.net/4618b2840c0142728e4ed7605dab8459.gif" alt="Suction Cup Bathroom Storage Rack" onclick="openModal(this.src)">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Problem Section -->
-    <section class="problem-section">
-        <div class="container">
-            <div class="problem-content">
-                <h2>Masalah yang Sering Dialami di Kamar Mandi</h2>
-                <div class="problem-list">
-                    <div class="problem-item">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        <h3>Kamar Mandi Berantakan</h3>
-                        <p>Sabun, shampo, dan perlengkapan mandi berserakan di lantai atau sudut kamar mandi</p>
-                    </div>
-                    <div class="problem-item">
-                        <i class="fas fa-tools"></i>
-                        <h3>Tidak Ingin Melubangi Dinding</h3>
-                        <p>Takut merusak keramik atau dinding kamar mandi dengan bor untuk memasang rak</p>
-                    </div>
-                    <div class="problem-item">
-                        <i class="fas fa-water"></i>
-                        <h3>Mudah Berkarat & Rusak</h3>
-                        <p>Rak biasa mudah berkarat karena kelembaban tinggi di kamar mandi</p>
-                    </div>
-                    <div class="problem-item">
-                        <i class="fas fa-home"></i>
-                        <h3>Ruang Terbatas</h3>
-                        <p>Kamar mandi sempit membutuhkan solusi penyimpanan yang efisien dan tidak memakan tempat</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="solution-section">
-        <div class="container">
-            <div class="solution-content">
-                <div class="solution-text">
-                    <h2>Solusi Terbaik: Suction Cup Storage Rack!</h2>
-                    <ul class="solution-features">
-                        <li><i class="fas fa-check"></i> <strong>Tanpa Bor & Mudah Dipasang</strong> - Cukup tempel dengan teknologi suction cup super kuat</li>
-                        <li><i class="fas fa-check"></i> <strong>Tahan Air & Anti Karat</strong> - Material berkualitas tinggi tahan kelembaban</li>
-                        <li><i class="fas fa-check"></i> <strong>Hemat Ruang</strong> - Design kompak dan fungsional untuk kamar mandi minimalis</li>
-                        <li><i class="fas fa-check"></i> <strong>Multifungsi</strong> - Bisa untuk sabun, shampo, sikat gigi, dan aksesoris lainnya</li>
-                        <li><i class="fas fa-check"></i> <strong>Daya Tahan Kuat</strong> - Mampu menahan beban hingga 10kg</li>
-                    </ul>
-                </div>
-                <div class="solution-image">
-                    <img src="https://d3qyjp7jfs525i.cloudfront.net/648af5d2919c460da9df37f73b711dce.gif" alt="Solution" onclick="openModal(this.src)" style="border-radius: 15px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Gallery -->
-    <section class="gallery-section">
-        <div class="container">
-            <h2>Galeri Produk</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/01f8dd5b215706441780c4e725de551463210011877121007735815EN2dc0a59465f32023a54196485570c5b08.jpg')">
-                    <img src="https://pic.compgoo.com/ueditor/autoLoad/01f8dd5b215706441780c4e725de551463210011877121007735815EN2dc0a59465f32023a54196485570c5b08.jpg" alt="Product Detail 1">
-                </div>
-                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/9797d1da83b9acfcd1ede1dd3ead77ca63210011877121007735815EN25c22dbafdc412fe82ac1d550e743c90d.jpg')">
-                    <img src="https://pic.compgoo.com/ueditor/autoLoad/9797d1da83b9acfcd1ede1dd3ead77ca63210011877121007735815EN25c22dbafdc412fe82ac1d550e743c90d.jpg" alt="Product Detail 2">
-                </div>
-                <div class="gallery-item" onclick="openModal('https://pic.compgoo.com/ueditor/autoLoad/7da582f608c58ed017f77f49431500b463210011877121007735815EN239e9cb4ca752331de9d4e9242c5d4c87.jpg')">
-                    <img src="https://pic.compgoo.com/ueditor/autoLoad/7da582f608c58ed017f77f49431500b463210011877121007735815EN239e9cb4ca752331de9d4e9242c5d4c87.jpg" alt="Product Detail 3">
-                </div>
-                <div class="gallery-item" onclick="openModal('https://d3qyjp7jfs525i.cloudfront.net/73ab9f4d9a7848d9940c8ddbe8ff3575.gif')">
-                    <img src="https://d3qyjp7jfs525i.cloudfront.net/73ab9f4d9a7848d9940c8ddbe8ff3575.gif" alt="Product Demo 1">
-                </div>
-                <div class="gallery-item" onclick="openModal('https://d3qyjp7jfs525i.cloudfront.net/dbb14465c2784509a0b022972fdbe41f.gif')">
-                    <img src="https://d3qyjp7jfs525i.cloudfront.net/dbb14465c2784509a0b022972fdbe41f.gif" alt="Product Demo 2">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features-section">
-        <div class="container">
-            <h2>Keunggulan Utama Produk</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-magic"></i>
-                    <h3>Teknologi Suction Cup</h3>
-                    <p>Sistem hisap super kuat yang bisa menempel di berbagai permukaan halus tanpa merusak dinding</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-tint"></i>
-                    <h3>100% Waterproof</h3>
-                    <p>Material premium anti air dan anti karat, cocok untuk lingkungan kamar mandi yang lembab</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-weight-hanging"></i>
-                    <h3>Daya Tahan Maksimal</h3>
-                    <p>Mampu menahan beban hingga 10kg, cukup kuat untuk semua kebutuhan penyimpanan Anda</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-palette"></i>
-                    <h3>Design Modern</h3>
-                    <p>Tampilan elegan dan minimalis yang cocok dengan berbagai tema dekorasi kamar mandi</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-recycle"></i>
-                    <h3>Eco-Friendly</h3>
-                    <p>Bahan ramah lingkungan dan dapat digunakan berulang kali tanpa merusak lingkungan</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-clock"></i>
-                    <h3>Instalasi 1 Menit</h3>
-                    <p>Pemasangan super cepat dan mudah, tidak perlu alat khusus atau keahlian teknis</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials-section">
-        <div class="container">
-            <h2>Testimoni Customer Yang Puas</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Produk ini benar-benar mengubah kamar mandi saya! Sekarang semua tertata rapi dan tidak berantakan lagi. Pemasangan super mudah, cuma ditempel aja langsung kuat!"</p>
-                    <div class="customer-info">- Sari, Jakarta</div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Sudah 8 bulan pakai dan masih kokoh banget! Bisa tahan air dan gak berkarat sama sekali. Worth it banget buat harga segini dapat kualitas premium."</p>
-                    <div class="customer-info">- Rina, Surabaya</div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Awalnya ragu beli online, tapi ternyata kualitasnya melebihi ekspektasi! Kamar mandi kecil saya jadi lebih fungsional dan estetik. Recommended!"</p>
-                    <div class="customer-info">- Maya, Bandung</div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Yang paling suka dari produk ini gak perlu bor-bor dinding! Tinggal tempel dan langsung bisa dipake. Suami saya juga seneng gak ribet pasangnya hehe."</p>
-                    <div class="customer-info">- Dewi, Medan</div>
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rash-m0o03lbm02z0f1@resize_w450_nl.webp" alt="New Thick-Soled Flip-Flops Sandals" class="hero-product-img">
                 </div>
             </div>
         </div>
@@ -801,120 +679,323 @@
     <!-- Countdown Timer -->
     <section class="countdown-section">
         <div class="container">
-            <h2>⚡ PROMO TERBATAS WAKTU! ⚡</h2>
-            <p style="font-size: 1.3rem; margin-bottom: 30px;">Dapatkan diskon spesial sebelum promo berakhir!</p>
+            <h2 class="countdown-title">⚡ PROMO BERAKHIR DALAM ⚡</h2>
             <div class="countdown-timer">
                 <div class="countdown-item">
-                    <div class="number" id="hours">12</div>
-                    <div class="label">Jam</div>
+                    <span class="countdown-number" id="hours">23</span>
+                    <span class="countdown-label">Jam</span>
                 </div>
                 <div class="countdown-item">
-                    <div class="number" id="minutes">34</div>
-                    <div class="label">Menit</div>
+                    <span class="countdown-number" id="minutes">45</span>
+                    <span class="countdown-label">Menit</span>
                 </div>
                 <div class="countdown-item">
-                    <div class="number" id="seconds">56</div>
-                    <div class="label">Detik</div>
+                    <span class="countdown-number" id="seconds">30</span>
+                    <span class="countdown-label">Detik</span>
+                </div>
+            </div>
+            <p style="font-size: 1.2rem; opacity: 0.9;">Jangan sampai terlewat! Stok terbatas!</p>
+        </div>
+    </section>
+
+    <!-- Problem & Solution -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="section-title">Masalah yang Sering Dihadapi Wanita</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Sandal Tidak Nyaman</h3>
+                    <p>Sandal tipis yang membuat kaki sakit dan tidak nyaman untuk berjalan lama</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <h3>Mudah Rusak</h3>
+                    <p>Sandal murah yang cepat putus atau rusak setelah pemakaian singkat</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-frown"></i>
+                    </div>
+                    <h3>Tidak Stylish</h3>
+                    <p>Desain membosankan yang tidak cocok dengan outfit modern dan trendy</p>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="color: #22c55e;">Solusi Terbaik untuk Anda!</h2>
+            <div class="problem-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Sol Tebal & Empuk</h3>
+                    <p>Teknologi thick-soled memberikan kenyamanan maksimal untuk aktivitas sepanjang hari</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Material Premium</h3>
+                    <p>Bahan berkualitas tinggi yang tahan lama dan tidak mudah rusak</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Desain Modern</h3>
+                    <p>Gaya contemporary yang cocok untuk berbagai kesempatan dan outfit</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Price Banner -->
-    <section class="price-banner">
+    <!-- Features -->
+    <section class="features">
         <div class="container">
-            <div class="price-content">
-                <h2 style="font-size: 2rem; margin-bottom: 20px;">🔥 PENAWARAN SPESIAL BUY 1 GET 1! 🔥</h2>
-                <div class="original-price">Harga Normal: Rp 266.710</div>
-                <div class="current-price">Rp 179.000</div>
-                <div class="price-label">Hemat Rp 87.710 + GRATIS 1 PCS!</div>
-                <p style="margin-top: 20px; font-size: 1.1rem;">✅ Gratis Ongkir Seluruh Indonesia<br>
-                ✅ Garansi Uang Kembali 100%<br>
-                ✅ Customer Service 24/7</p>
+            <h2 class="section-title">Keunggulan Produk</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Dibuat dari bahan ramah lingkungan yang aman dan sustainable</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Anti-Slip</h3>
+                    <p>Sol anti selip memberikan keamanan ekstra saat berjalan</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Breathable</h3>
+                    <p>Desain terbuka memungkinkan sirkulasi udara yang baik</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Warna Menarik</h3>
+                    <p>Tersedia dalam berbagai pilihan warna yang trendy</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- Product Gallery -->
+    <section class="gallery">
         <div class="container">
-            <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Jangan Sampai Kehabisan!</h2>
-            <p style="font-size: 1.3rem; margin-bottom: 40px;">Ribuan customer sudah merasakan manfaatnya. Sekarang giliran Anda!</p>
-            <a href="https://luna.orderonline.id/bathroom-storage-rack" class="cta-button" target="_blank">
-                <i class="fas fa-shopping-cart"></i> AMBIL PROMO STOCK TERBATAS!
-            </a>
-            <p style="margin-top: 30px; font-size: 1rem; opacity: 0.9;">
-                <i class="fas fa-lock"></i> Pembayaran 100% Aman & Terpercaya
-            </p>
+            <h2 class="section-title">Galeri Produk</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal('https://p50nq7-d2.myshopify.com/cdn/shop/files/012228f5457347faa6df5c51a444c17b.webp')">
+                    <img src="https://p50nq7-d2.myshopify.com/cdn/shop/files/012228f5457347faa6df5c51a444c17b.webp" alt="Product Detail 1" class="gallery-img">
+                </div>
+                <div class="gallery-item" onclick="openModal('https://p50nq7-d2.myshopify.com/cdn/shop/files/249a32c5bc9541728a3ef1991a25cf79.webp')">
+                    <img src="https://p50nq7-d2.myshopify.com/cdn/shop/files/249a32c5bc9541728a3ef1991a25cf79.webp" alt="Product Detail 2" class="gallery-img">
+                </div>
+                <div class="gallery-item" onclick="openModal('https://p50nq7-d2.myshopify.com/cdn/shop/files/259c3661641e4296a5f3a47981de0d88.webp')">
+                    <img src="https://p50nq7-d2.myshopify.com/cdn/shop/files/259c3661641e4296a5f3a47981de0d88.webp" alt="Product Detail 3" class="gallery-img">
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Modal -->
-    <div id="imageModal" class="modal" onclick="closeModal()">
-        <span class="close">&times;</span>
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
         <div class="modal-content">
-            <img id="modalImage" src="" alt="Product Image">
+            <img id="modalImage" class="modal-img" alt="Product Image">
         </div>
     </div>
 
-    <script>
-        // Dynamic Counter Animation
-        function animateCounter(id, start, end, duration) {
-            const obj = document.getElementById(id);
-            const range = end - start;
-            const increment = range / (duration / 16);
-            let current = start;
-            
-            const timer = setInterval(() => {
-                current += increment;
-                if (current >= end) {
-                    current = end;
-                    clearInterval(timer);
-                }
-                obj.textContent = Math.floor(current);
-            }, 16);
-        }
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimoni Pelanggan</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Harganya worth it banget! Dibanding sandal mahal di mall, ini lebih nyaman dan awet. Udah beli 3 warna karena suka banget sama modelnya."</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle" style="font-size: 2rem;"></i>
+                        <div>
+                            <strong>Dina K.</strong><br>
+                            <small>Bandung</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Pengiriman cepat, packingnya rapi. Sandalnya empuk banget di kaki, cocok buat yang sering jalan jauh seperti saya. Terima kasih!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle" style="font-size: 2rem;"></i>
+                        <div>
+                            <strong>Lina S.</strong><br>
+                            <small>Yogyakarta</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        // Random viewer counter
-        function updateViewers() {
+    <!-- Urgency Section -->
+    <section class="urgency">
+        <div class="container">
+            <div class="urgency-content">
+                <h2 class="urgency-title">🚨 STOK TERBATAS! 🚨</h2>
+                <p style="font-size: 1.3rem; margin-bottom: 20px;">
+                    Hanya tersisa <strong id="urgencyStock">23 pasang</strong> untuk promo hari ini!
+                </p>
+                <p style="font-size: 1.1rem; margin-bottom: 30px;">
+                    Jangan sampai menyesal karena kehabisan stok. Ribuan wanita sudah merasakan kenyamanannya!
+                </p>
+                <a href="https://luna.orderonline.id/flops-sandals-womens" class="cta-button">
+                    <i class="fas fa-bolt"></i> PESAN SEKARANG JUGA!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Description -->
+    <section style="padding: 100px 0; background: white;">
+        <div class="container">
+            <h2 class="section-title">Deskripsi Produk</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <div style="background: #f8f9fa; padding: 40px; border-radius: 15px; margin-bottom: 40px;">
+                    <h3 style="color: #667eea; margin-bottom: 20px; font-size: 1.5rem;">Spesifikasi:</h3>
+                    <ul style="line-height: 2; font-size: 1.1rem;">
+                        <li><strong>Material:</strong> EVA Premium + Rubber Anti-Slip</li>
+                        <li><strong>Ketebalan Sol:</strong> 3.5cm (Extra Thick)</li>
+                        <li><strong>Ukuran Tersedia:</strong> 36-40</li>
+                        <li><strong>Berat:</strong> 250gr per pasang</li>
+                        <li><strong>Warna:</strong> Black, Pink, White, Blue</li>
+                        <li><strong>Garansi:</strong> 30 hari uang kembali</li>
+                    </ul>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 40px; border-radius: 15px;">
+                    <h3 style="margin-bottom: 20px; font-size: 1.5rem;">Mengapa Memilih Produk Kami?</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+                        <div style="text-align: center;">
+                            <i class="fas fa-shipping-fast" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                            <p><strong>Gratis Ongkir</strong><br>Ke seluruh Indonesia</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-undo" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                            <p><strong>30 Hari Garansi</strong><br>Uang kembali 100%</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-certificate" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                            <p><strong>Kualitas Terjamin</strong><br>Produk original</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-headset" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                            <p><strong>CS 24/7</strong><br>Siap membantu Anda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="final-cta-title">Jangan Tunda Lagi!</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Dapatkan sandal impian Anda sekarang dengan harga spesial. Penawaran terbatas, stok terbatas!
+            </p>
+            <div style="background: linear-gradient(45deg, #ff6b6b, #ffd93d); padding: 30px; border-radius: 20px; margin: 40px 0; display: inline-block;">
+                <div style="font-size: 1.2rem; margin-bottom: 10px;">💰 HARGA NORMAL: <del>Rp 261,146</del></div>
+                <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 10px;">🔥 HARGA PROMO: Rp 175,400</div>
+                <div style="font-size: 1rem; opacity: 0.9;">⚡ Hemat Rp 85,746 (33% OFF)</div>
+            </div>
+            <br>
+            <a href="https://luna.orderonline.id/flops-sandals-womens" class="cta-button" style="font-size: 1.3rem; padding: 20px 50px;">
+                <i class="fas fa-shopping-cart"></i> AMBIL PROMO SEKARANG!
+            </a>
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">
+                *Promo berakhir dalam <span id="finalCountdown">23:45:30</span> atau sampai stok habis
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #333; color: white; padding: 40px 0; text-align: center;">
+        <div class="container">
+            <p style="margin-bottom: 10px;">&copy; 2025 New Thick-Soled Flip-Flops Sandals. All rights reserved.</p>
+            <p style="font-size: 0.9rem; opacity: 0.7;">Produk berkualitas dengan harga terjangkau untuk wanita Indonesia</p>
+            <div style="margin-top: 20px;">
+                <i class="fas fa-shield-alt" style="color: #22c55e; margin-right: 5px;"></i>
+                <span style="font-size: 0.9rem;">Transaksi Aman & Terpercaya</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dynamic Counters
+        function updateCounters() {
+            // Update viewers (simulate real-time)
             const viewers = document.getElementById('viewers');
             const currentViewers = parseInt(viewers.textContent);
-            const change = Math.floor(Math.random() * 20) - 10; // -10 to +10
-            const newViewers = Math.max(1200, currentViewers + change);
-            viewers.textContent = newViewers;
-        }
+            const change = Math.floor(Math.random() * 10) - 5; // Random change between -5 to +4
+            const newViewers = Math.max(1200, Math.min(1500, currentViewers + change));
+            viewers.textContent = newViewers.toLocaleString();
 
-        // Random stock counter (decreasing)
-        function updateStock() {
+            // Update stock (decrease slowly)
             const stock = document.getElementById('stock');
+            const urgencyStock = document.getElementById('urgencyStock');
             const currentStock = parseInt(stock.textContent);
-            if (currentStock > 5) {
-                const newStock = currentStock - Math.floor(Math.random() * 2);
+            
+            if (Math.random() < 0.1 && currentStock > 5) { // 10% chance to decrease
+                const newStock = currentStock - 1;
                 stock.textContent = newStock;
+                urgencyStock.textContent = newStock;
             }
         }
 
         // Countdown Timer
-        function startCountdown() {
+        function updateCountdown() {
             const now = new Date().getTime();
-            const countdownTime = now + (24 * 60 * 60 * 1000); // 24 hours from now
+            const endTime = now + (24 * 60 * 60 * 1000); // 24 hours from now
             
-            const timer = setInterval(() => {
-                const now = new Date().getTime();
-                const distance = countdownTime - now;
+            setInterval(() => {
+                const currentTime = new Date().getTime();
+                const timeLeft = endTime - currentTime;
                 
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
                 
                 document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
                 document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
                 document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
                 
-                if (distance < 0) {
-                    clearInterval(timer);
-                    // Restart countdown
-                    startCountdown();
+                // Update final countdown
+                const finalCountdown = document.getElementById('finalCountdown');
+                if (finalCountdown) {
+                    finalCountdown.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
                 }
             }, 1000);
         }
@@ -932,6 +1013,14 @@
             const modal = document.getElementById('imageModal');
             modal.style.display = 'none';
             document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                closeModal();
+            }
         }
 
         // Smooth scrolling for anchor links
@@ -962,103 +1051,82 @@
             });
         }, observerOptions);
 
-        // Observe all animated elements
-        document.addEventListener('DOMContentLoaded', () => {
-            // Start animations and counters
-            animateCounter('viewers', 1200, 1247, 2000);
-            startCountdown();
-            
-            // Update dynamic counters
-            setInterval(updateViewers, 30000); // Update viewers every 30 seconds
-            setInterval(updateStock, 60000); // Update stock every minute
-            
-            // Observe animated elements
-            const animatedElements = document.querySelectorAll('.problem-item, .feature-card, .testimonial-card');
-            animatedElements.forEach(el => {
-                observer.observe(el);
-            });
+        // Observe elements for animation
+        document.querySelectorAll('.problem-card, .solution-card, .feature-card, .testimonial-card, .gallery-item').forEach(el => {
+            observer.observe(el);
+        });
 
-            // Add scroll effects
-            window.addEventListener('scroll', () => {
-                const scrolled = window.pageYOffset;
-                const parallax = document.querySelector('.hero');
-                const speed = scrolled * 0.5;
-                parallax.style.transform = `translateY(${speed}px)`;
-            });
+        // Initialize functions
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCountdown();
+            updateCounters();
+            
+            // Update counters every 5-15 seconds
+            setInterval(updateCounters, Math.random() * 10000 + 5000);
+        });
 
-            // Add hover effects to CTA button
-            const ctaButton = document.querySelector('.cta-button');
-            ctaButton.addEventListener('mouseenter', () => {
-                ctaButton.style.transform = 'translateY(-5px) scale(1.05)';
+        // Add hover effects to CTA buttons
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-3px) scale(1.05)';
             });
             
-            ctaButton.addEventListener('mouseleave', () => {
-                ctaButton.style.transform = 'translateY(0) scale(1)';
-            });
-
-            // Add click tracking
-            ctaButton.addEventListener('click', () => {
-                // Track conversion
-                console.log('CTA clicked - redirecting to order form');
+            button.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
             });
         });
 
-        // Prevent right-click on images (basic protection)
-        document.addEventListener('contextmenu', function(e) {
-            if (e.target.tagName === 'IMG') {
-                e.preventDefault();
-            }
+        // Add click analytics (simulated)
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Simulate analytics tracking
+                console.log('CTA clicked:', this.textContent.trim());
+                
+                // Add loading state
+                const originalText = this.innerHTML;
+                this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Memproses...';
+                this.style.pointerEvents = 'none';
+                
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                    this.style.pointerEvents = 'auto';
+                }, 1000);
+            });
         });
-
-        // Add floating elements animation
-        function createFloatingElements() {
-            const hero = document.querySelector('.hero');
-            for (let i = 0; i < 10; i++) {
-                const bubble = document.createElement('div');
-                bubble.style.cssText = `
-                    position: absolute;
-                    width: ${Math.random() * 20 + 10}px;
-                    height: ${Math.random() * 20 + 10}px;
-                    background: rgba(255,255,255,0.1);
-                    border-radius: 50%;
-                    left: ${Math.random() * 100}%;
-                    top: ${Math.random() * 100}%;
-                    animation: float ${Math.random() * 3 + 2}s ease-in-out infinite;
-                    animation-delay: ${Math.random() * 2}s;
-                `;
-                hero.appendChild(bubble);
-            }
-        }
-
-        // Initialize floating elements
-        createFloatingElements();
-
-        // Add exit-intent popup
-        let exitIntentShown = false;
-        document.addEventListener('mouseleave', function(e) {
-            if (e.clientY <= 0 && !exitIntentShown) {
-                exitIntentShown = true;
-                alert('Tunggu! Jangan lewatkan promo spesial Buy 1 Get 1 ini! Klik OK untuk melanjutkan pembelian.');
-            }
-        });
-
-        // Add urgency messages
-        const urgencyMessages = [
-            "⚡ 15 orang sedang melihat produk ini!",
-            "🔥 Stok hampir habis, pesan sekarang!",
-            "⏰ Promo berakhir dalam hitungan jam!",
-            "💯 Garansi uang kembali 100%!"
-        ];
-
-        let messageIndex = 0;
-        function showUrgencyMessage() {
-            const badge = document.querySelector('.floating-badge');
-            badge.innerHTML = urgencyMessages[messageIndex];
-            messageIndex = (messageIndex + 1) % urgencyMessages.length;
-        }
-
-        // Rotate urgency messages
-        setInterval(showUrgencyMessage, 5000);
     </script>
 </body>
-</html>
+</html> fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Sandal ini benar-benar nyaman banget! Sol tebalnya bikin kaki ga sakit meskipun dipake seharian. Designnya juga kece, cocok sama outfit apapun!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle" style="font-size: 2rem;"></i>
+                        <div>
+                            <strong>Sari M.</strong><br>
+                            <small>Jakarta</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Kualitasnya bagus banget, udah 6 bulan pake masih awet. Anti slip nya juga oke, ga takut jatuh pas hujan. Pokoknya recommended deh!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle" style="font-size: 2rem;"></i>
+                        <div>
+                            <strong>Maya R.</strong><br>
+                            <small>Surabaya</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas
